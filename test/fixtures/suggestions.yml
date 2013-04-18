@@ -1,0 +1,10 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: Suggestion One
+  suggester: Barney Rubble
+  
+two:
+  title: Suggestion Two
+  suggester: Fred Flintstone

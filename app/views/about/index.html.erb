@@ -1,0 +1,46 @@
+<div class="row hero-unit">
+  <%= image_tag 'seattle_rb_logo_big.png', id: "hero-ruby", class: "span2" %>
+  <div id='hero-text' class='span9'>
+    <h1>ATLRUG</h1>
+    <h2>Atlanta Ruby User Group</h2>
+    <p>
+      AL: Remember above logo. **************************************************
+
+      ATLRUG was the first Ruby and Rails user group in North America and has met regularly for over a decade. We convene every second Wednesday night to teach and learn about Ruby and Rails. All skill levels are welcome!
+    </p>
+
+    <a href="https://twitter.com/atlrug" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @atlrug</a>
+
+    <%= render "twitter" %>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span4">
+    <h2>Why ATLRUG?</h2>
+     <p>
+       AL: REPLACE THIS TEXT WITH OUR TEXT. **************************************************
+
+The Ruby and Rails worlds are known for their collaboration, and ATLRUG takes an active role. We focus on fun and collaborate to solve problems. We provide each other support as we take on new challenges in Ruby. We're proud to be the home of some of the <%= link_to "best Ruby developers around", people_path %>. Check out <a href='http://www.youtube.com/watch?v=ICVdf4WidkY'>this video</a> about our humble beginnings.
+     </p>
+  </div>
+  <div class="span4">
+    <h2>How Can I Participate?</h2>
+    <p>
+      AL: REPLACE THIS TEXT WITH OUR TEXT>. **************************************************
+       
+      The Tuesday "Nerd Club" is informal - drop in and code with us as you please. We also host larger, formal events on a semi-regular basis. We encourage everyone, from Ruby novice to expert, to join us to learn and contribute. We're excited to grow and support the Ruby and Rails communities.
+    </p>
+    <p>
+      Most importantly: <%= link_to "Join us", join_us_path %> and <%= link_to "Sign up to give a talk", talks_path %>!
+    </p>
+ </div>
+  <div class="span4">
+    <h2>Where Can I Get Help?</h2>
+    <p>
+      The nicest thing about our members is the number of projects and resources we've helped grow. View our <%= link_to "projects", projects_path %>, join our <%= link_to "mailing list", join_us_path %>, follow us on <a href='http://twitter.com/atlrug'>twitter</a>, and peruse or submit to our <%= link_to "Atlanta jobs board", join_us_path %>.
+    </p>
+  </div>
+</div>
+
+<%= render :partial => "about/maps" %>
