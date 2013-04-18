@@ -6,5 +6,9 @@ language: ruby
 rvm:
   - 1.9.3
 
-env:
-  - DB=postgres
+notifications:
+  email:
+    recipients:
+      - jasnow@hotmail.com
+    on_success: change
+    on_failure: always
