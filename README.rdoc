@@ -4,11 +4,11 @@ This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group)
 
 {<img src="https://travis-ci.org/jasnow/atlrug-website.png" />}[https://travis-ci.org/jasnow/atlrug-website.png]
 
-* [![Dependency Status] {<img src="https://gemnasium.com/jasnow/atlrug-website.png?travis" />}[https://gemnasium.com/jasnow/atlrug-website.png]
+{<img src="https://gemnasium.com/jasnow/atlrug-website.png?travis" />}[https://gemnasium.com/jasnow/atlrug-website.png?travis]
 
 == Setup
 
-1. To install gems: <tt>bundle install</tt>.
+1. To install gems, run: <tt>bundle install</tt>.
 
 On 4/18/2013, the requirements were: Ruby 1.9.3; Rails 3.2.13.
 
