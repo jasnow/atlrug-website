@@ -2,10 +2,9 @@
 
 This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
 
-* **master:** [![Build Status master](https://secure.travis-ci.org/jasnow/atlrug-website.png?branch=master)](http://travis-ci.org/jasnow/atlrug-website)
+{<img src="https://travis-ci.org/jasnow/atlrug-website.png" />}[https://travis-ci.org/jasnow/atlrug-website
 
 * [![Dependency Status](https://gemnasium.com/jasnow/atlrug-website.png?travis)](https://gemnasium.com/atlrug-website)
-
 
 == Setup
 
