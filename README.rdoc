@@ -2,9 +2,11 @@
 
 This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
 
-{<img src="https://travis-ci.org/jasnow/atlrug-website.png" />}[https://travis-ci.org/jasnow/atlrug-website
+https://travis-ci.org/jasnow/atlrug-website.png
 
-* [![Dependency Status](https://gemnasium.com/jasnow/atlrug-website.png?travis)](https://gemnasium.com/atlrug-website)
+{<img src="https://travis-ci.org/jasnow/atlrug-website.png" />}[https://travis-ci.org/jasnow/atlrug-website.png]
+
+**TODO: Add status from https://gemnasium.com**
 
 == Setup
 
