@@ -2,17 +2,11 @@
 
 This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
 
-== Requirements
-
-On 4/18/2013, the requirements were:
-
-Ruby 1.9.3; Rails 3.2.13.
-
-To install gems: <tt>bundle install</tt>.
-
 == Setup
 
-1. Run "bundle install".
+1. To install gems: <tt>bundle install</tt>.
+
+On 4/18/2013, the requirements were: Ruby 1.9.3; Rails 3.2.13.
 
 2. Create databases and tables:
 
