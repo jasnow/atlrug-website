@@ -2,6 +2,11 @@
 
 This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
 
+* **master:** [![Build Status master](https://secure.travis-ci.org/jasnow/atlrug-website.png?branch=master)](http://travis-ci.org/jasnow/atlrug-website)
+
+* [![Dependency Status](https://gemnasium.com/jasnow/atlrug-website.png?travis)](https://gemnasium.com/atlrug-website)
+
+
 == Setup
 
 1. To install gems: <tt>bundle install</tt>.
