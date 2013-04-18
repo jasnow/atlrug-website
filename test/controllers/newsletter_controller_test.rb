@@ -1,6 +1,6 @@
-require "minitest_helper"
+require "test_helper"
 
-class NewsletterControllerTest < MiniTest::Rails::ActionController::TestCase
+class NewsletterControllerTest < ActionController::TestCase
   def test_subscribe_to_discussion
     ZenspiderSubscriber.stub :subscribe_to_discussion, nil do
       post :subscribe, :subscribe => {:subscribe_to_discussion => "1"}

@@ -1,0 +1,11 @@
+./test/helpers/talks_helper_test.rb
+./test/helpers/application_helper_test.rb
+./test/controllers/newsletter_controller_test.rb
+./test/controllers/talks_controller_test.rb
+./test/controllers/suggestions_controller_test.rb
+./test/controllers/about_controller_test.rb
+./test/models/project_test.rb
+./test/models/user_test.rb
+./test/models/talk_test.rb
+./test/models/dude_test.rb
+./test/models/suggestion_test.rb

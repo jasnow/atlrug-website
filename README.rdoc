@@ -1,0 +1,40 @@
+= Atlrug-website
+
+This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
+
+== Requirements
+
+On 4/18/2013, the requirements were:
+
+Ruby 1.9.3; Rails 3.2.13.
+
+To install gems: <tt>bundle install</tt>.
+
+== Setup
+
+1. Run "bundle install".
+
+2. Create databases and tables:
+
+    rake db:setup
+    rake db:migrate
+
+3. Run the tests by typing "rake".
+
+4. Project is on Github at https://github.com/jasnow/atlrug-website.
+
+== To Contribute
+
+1. Fork project on Github.
+
+2. Clone it locally.
+
+3. Make Change.
+
+4. Push it back to Github.
+
+5. Create a Pull Request to original repo.
+
+== License
+
+Atlrug-website is released under the MIT License. http://www.opensource.org/licenses/mit-license

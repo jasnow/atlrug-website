@@ -1,6 +1,6 @@
-require "minitest_helper"
+require "test_helper"
 
-class DudeTest < MiniTest::Rails::ActiveSupport::TestCase
+class DudeTest < ActiveSupport::TestCase
   def test_valid
     dude = Dude.new(:name         => "Dude",
                     :ruby_gems_id => "Dude")
