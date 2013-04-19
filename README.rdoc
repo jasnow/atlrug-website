@@ -1,6 +1,7 @@
 = Atlrug-website
 
 This is a Ruby-on-Rails web application for the ATLRUG (Atlanta Ruby User Group).
+This web site was based on the https://github.com/seattlerb/seattlerb.org code.
 
 {<img src="https://travis-ci.org/jasnow/atlrug-website.png" />}[https://travis-ci.org/jasnow/atlrug-website.png]
 

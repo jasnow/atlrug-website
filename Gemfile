@@ -25,4 +25,5 @@ group :development, :test do
   gem "minitest-rails"
   gem "ZenTest",                 "~> 4.8"
   gem "autotest-rails",          "~> 4.1.2"
+  gem 'simplecov', :require => false
 end
