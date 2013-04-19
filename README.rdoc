@@ -34,6 +34,10 @@ On 4/18/2013, the requirements were: Ruby 1.9.3; Rails 3.2.13.
 
 5. Create a Pull Request to original repo.
 
+== DISCUSSION
+
+If you have questions, please use this Google group: atlrug-website@googlegroups.com
+
 == License
 
 Atlrug-website is released under the MIT License. http://www.opensource.org/licenses/mit-license
