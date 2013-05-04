@@ -2,15 +2,15 @@
 
 source "https://rubygems.org"
 
-gem "rake",                      "~> 0.9.0"
-gem "rails",                     "~> 3.2.13"
-gem "jquery-rails",              "~> 1.0.0"
-gem "httparty",                  "~> 0.8.0"
-gem "rails_admin",               "~> 0.0.5"
-gem "devise",                    "~> 2.1.0"
+gem "rake"
+gem "rails", "~> 3.2.13"
+gem "jquery-rails"
+gem "httparty"
+gem "rails_admin"
+gem "devise"
 
 group :production do
-  gem "pg",                      "~> 0.12.0"
+  gem "pg"
 end
 
 group :assets do
@@ -21,9 +21,9 @@ group :assets do
 end
 
 group :development, :test do
-  gem "sqlite3",                 "~> 1.3.0"
+  gem "sqlite3"
   gem "minitest-rails"
-  gem "ZenTest",                 "~> 4.8"
-  gem "autotest-rails",          "~> 4.1.2"
-  gem 'simplecov', :require => false
+  gem "ZenTest"
+  gem "autotest-rails"
+  gem 'simplecov'
 end
