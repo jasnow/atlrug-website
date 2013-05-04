@@ -176,7 +176,7 @@ DEPENDENCIES
   jquery-rails
   minitest-rails
   pg
-  rails (~> 3.2.13)
+  rails (= 3.2.13)
   rails_admin
   rake
   sass-rails
