@@ -23,7 +23,8 @@ class SuggestionsController < ApplicationController
 
     respond_to do |format|
       if @suggestion.save
-        format.html { redirect_to suggestions_path, notice: 'Suggestion was successfully created.' }
+        format.html { redirect_to suggestions_path,
+          notice: 'Suggestion was successfully created.' }
       else
         format.html { render action: "new" }
       end

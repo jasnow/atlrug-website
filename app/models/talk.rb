@@ -12,9 +12,10 @@ class Talk < ActiveRecord::Base
                              title"
 
   def self.available
-    by_kind.where("completed = ? and (scheduled_date is NULL or scheduled_date < ?)",
-                  false,
-                  28.days.from_now)
+    by_kind.where(
+      "completed = ? and (scheduled_date is NULL or scheduled_date < ?)",
+      false,
+      28.days.from_now)
   end
 
   validates(:kind,

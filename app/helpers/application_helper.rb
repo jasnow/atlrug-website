@@ -1,6 +1,7 @@
 module ApplicationHelper
   def twitter_image(twitter_handle)
-    "https://api.twitter.com/1/users/profile_image?screen_name=#{twitter_handle}&size=bigger"
+    "https://api.twitter.com/1/users/profile_" +
+    "image?screen_name=#{twitter_handle}&size=bigger"
   end
 
   def icon_link icon, text, uri, uri_prefix=nil
@@ -32,7 +33,8 @@ module ApplicationHelper
   end
 
   def nav_item_link link_label, link_path
-    content_tag :li, link_to(link_label, link_path), :class => ('active' if current_page?(link_path))
+    content_tag :li, link_to(link_label, link_path),
+      :class => ('active' if current_page?(link_path))
   end
 
   def title_or_action

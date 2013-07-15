@@ -4,7 +4,8 @@ class ZenspiderSubscriber
 
   class << self
     def subscribe!(options)
-      subscribe_to_discussion options[:person] if options[:subscribe_to_discussion]
+      subscribe_to_discussion options[:person] if options[
+        :subscribe_to_discussion]
       subscribe_to_jobs options[:person] if options[:subscribe_to_jobs]
     end
 
