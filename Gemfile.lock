@@ -33,7 +33,7 @@ GEM
     autotest-rails (4.1.2)
       ZenTest (~> 4.5)
     bcrypt-ruby (3.1.1)
-    bootstrap-sass (2.3.2.0)
+    bootstrap-sass (2.3.2.1)
       sass (~> 3.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
