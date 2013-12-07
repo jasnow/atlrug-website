@@ -49,6 +49,7 @@ module AtlrugWebsite
     # carryforwad from v 2.3.3
     config.time_zone = 'UTC'
 
+    I18n.config.enforce_available_locales = false
   end
 end
 
