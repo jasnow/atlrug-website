@@ -1,7 +1,9 @@
 language: ruby
 
 rvm:
-  - 1.9.3
+  - 2.1.0
+
+secure: "egxZBZqXhgKpV0rxXSinymvxQc70Y41Z7N5QvouMLXc8o2ydC7alV7k8OvdF6gwY+rOQqOtGYDW3nwem/wSSa3hU5Vv5+5Z2jDKZ0R40Ojkbj7Ma/jTIfYBGRhu+jkPBNIb5gOHddTbavkyASxSFNpDoTyOir90Z+EWR0Tm8pI8="
 
 notifications:
   email:
