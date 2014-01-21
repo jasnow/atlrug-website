@@ -9,15 +9,15 @@ gem "httparty"
 gem "rails_admin"
 gem "devise"
 
-group :production do
-  gem "pg"
-end
-
 group :assets do
   gem "sass-rails"
   gem "coffee-rails"
   gem "uglifier"
   gem "twitter-bootstrap-rails"
+end
+
+group :development do
+  gem 'codesake-dawn', :require => false
 end
 
 group :development, :test do
@@ -26,4 +26,8 @@ group :development, :test do
   gem "ZenTest"
   gem "autotest-rails"
   gem 'simplecov'
+end
+
+group :production do
+  gem "pg"
 end
