@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "rails", "3.2.16"
+gem "rails", "3.2.17"
 gem "jquery-rails"
 gem "httparty"
 gem "rails_admin"
