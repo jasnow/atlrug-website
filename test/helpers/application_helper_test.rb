@@ -35,11 +35,12 @@ class ApplicationHelperTest < ActionView::TestCase
     assert_equal "<li><i class='icon-user'></i><a href=\"http://www.example.com\">Website</a></li>", website_link(person)
   end
 
-  def test_email_link
-    person = Dude.new(:name => "Frank", :ruby_gems_id => "rgid", :email => "test@example.com")
-
-    assert_equal "<li><i class='icon-leaf'></i><a href=\"http://twitter.com/@test\">@@test</a></li>", email_link(person)
-  end
+#  def test_email_link
+#    person = Dude.new(:name => "Frank", :ruby_gems_id => "rgid", :email => "test@example.com")
+#
+#    assert_equal "<li><i class='icon-leaf'></i><a href=\"http://
+#    twitter.com/@test\">@@test</a></li>", email_link(person)
+#  end
 
   def test_email_link
     person = Dude.new(:name => "Frank", :ruby_gems_id => "rgid", :twitter => "@test")
