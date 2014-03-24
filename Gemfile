@@ -8,6 +8,7 @@ gem "jquery-rails"
 gem "httparty"
 gem "rails_admin"
 gem "devise"
+gem "rack-ssl", "1.3.4"
 
 group :assets do
   gem "sass-rails"
