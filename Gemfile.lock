@@ -11,7 +11,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    ZenTest (4.9.5)
+    ZenTest (4.10.0)
     actionmailer (3.2.17)
       actionpack (= 3.2.17)
       mail (~> 2.5.4)
@@ -51,7 +51,7 @@ GEM
       mechanize
       nokogiri
       rainbow (~> 2.0.0)
-    codesake-dawn (1.1.1)
+    codesake-dawn (1.1.2)
       codesake-commons (~> 0.95.0)
       coveralls
       cvss
@@ -201,7 +201,7 @@ GEM
     remotipart (1.2.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    ruby_parser (3.5.0)
+    ruby_parser (3.6.0)
       sexp_processor (~> 4.1)
     safe_yaml (0.9.7)
     sass (3.3.5)
