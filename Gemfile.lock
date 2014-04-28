@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/seyhunak/twitter-bootstrap-rails.git
-  revision: 663760e67b80ee25adc293bf5f03debae28b5af9
+  revision: 95de3b0e288aede73d38a18cce30cde66e733558
   specs:
     twitter-bootstrap-rails (2.2.8)
       actionpack (>= 3.1)
@@ -117,6 +117,7 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -138,7 +139,7 @@ GEM
       railties (>= 3.0, < 4.1)
     minitest-test (1.1.0)
       minitest (~> 4.0)
-    multi_json (1.9.2)
+    multi_json (1.9.3)
     multi_xml (0.5.5)
     nested_form (0.3.2)
     net-http-digest_auth (1.4)
@@ -198,13 +199,14 @@ GEM
     rake (10.3.1)
     rdoc (3.12.2)
       json (~> 1.4)
+    ref (1.0.5)
     remotipart (1.2.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ruby_parser (3.6.0)
       sexp_processor (~> 4.1)
     safe_yaml (0.9.7)
-    sass (3.3.5)
+    sass (3.3.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -227,6 +229,9 @@ GEM
     term-ansicolor (1.3.0)
       tins (~> 1.0)
     terminal-table (1.4.5)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     thread_safe (0.3.3)
     tilt (1.4.1)
@@ -266,5 +271,6 @@ DEPENDENCIES
   sass-rails
   simplecov
   sqlite3
+  therubyracer
   twitter-bootstrap-rails!
   uglifier

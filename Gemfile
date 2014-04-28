@@ -11,6 +11,7 @@ gem "jquery-rails"
 gem "httparty"
 gem "rails_admin"
 gem "devise"
+gem "therubyracer"
 
 group :assets do
   gem "sass-rails"
