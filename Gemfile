@@ -11,14 +11,15 @@ gem "jquery-rails"
 gem "httparty"
 gem "rails_admin"
 gem "devise"
-gem "therubyracer"
 
 group :assets do
   gem "sass-rails"
   gem "coffee-rails"
   gem "uglifier"
-  gem "twitter-bootstrap-rails",
-    :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+  gem "therubyracer"
+  gem "less-rails"
+  gem "twitter-bootstrap-rails"
 end
 
 group :development do
