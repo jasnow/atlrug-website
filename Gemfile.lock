@@ -266,7 +266,6 @@ DEPENDENCIES
   minitest-rails
   pg
   rack
-  rack-ssl (= 1.3.4)
   rails (= 3.2.18)
   rails_admin
   rake

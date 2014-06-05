@@ -3,9 +3,8 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "rails", "3.2.18"
+gem 'rails', "3.2.18"
 gem "rack"
-gem "rack-ssl", "1.3.4"
 
 gem "jquery-rails"
 gem "httparty"
