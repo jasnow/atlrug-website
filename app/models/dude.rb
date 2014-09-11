@@ -1,5 +1,6 @@
 class Dude < ActiveRecord::Base
-  attr_accessible :name, :email, :bio, :website, :featured, :twitter, :github, :image_url
+  attr_accessible :name, :email, :bio, :website,:ruby_gems_id
+  attr_accessible :featured, :twitter, :github, :image_url
 
   habtm :projects, :join_table => :affiliations
 
