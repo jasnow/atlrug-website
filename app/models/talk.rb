@@ -1,4 +1,7 @@
 class Talk < ActiveRecord::Base
+  attr_accessible :title, :description, :presenter, :kind, :email
+  attr_accessible :completed, :scheduled_date
+
   TALK_KINDS = %w(beginner intermediate advanced lightning)
 
   scope :by_kind, :order => "scheduled_date IS NULL,

@@ -1,4 +1,6 @@
 class Dude < ActiveRecord::Base
+  attr_accessible :name, :email, :bio, :website, :featured, :twitter, :github, :image_url
+
   habtm :projects, :join_table => :affiliations
 
   validates_presence_of :name

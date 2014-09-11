@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  attr_accessible :email, :password, :password_confirmation, :remember_me
+
   devise(:database_authenticatable,
          :recoverable,
          # :confirmable,  # TODO: figure out email on heroku
@@ -6,6 +8,4 @@ class User < ActiveRecord::Base
          :rememberable,
          :trackable,
          :validatable)
-
-  attr_accessible :email, :password, :password_confirmation, :remember_me
 end
