@@ -23,11 +23,11 @@ group :assets do
 end
 
 group :development do
-  gem 'codesake-dawn', :require => false
+  gem 'dawn', :require => false
 end
 
 group :development, :test do
-  gem "sqlite3"
+  gem 'sqlite3'
   gem "minitest-rails"
   gem "ZenTest"
   gem "autotest-rails"
