@@ -22,7 +22,7 @@ group :assets do
 end
 
 group :development do
-  gem 'dawn', :require => false
+  gem 'dawnscanner', :require => false
 end
 
 group :development, :test do
