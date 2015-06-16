@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.2.21'
+gem 'rails', '3.2.22'
 gem 'rack'
 
 gem 'jquery-rails'
