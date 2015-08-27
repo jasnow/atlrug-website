@@ -5,13 +5,14 @@ rvm:
 
 before_script: bundle exec rake RAILS_ENV=test
 before_install: gem update bundler
+cache: bundler
 notifications:
   email:
     recipients:
     - jasnow@hotmail.com
     on_success: change
     on_failure: always
-
+sudo: false
 env:
   global:
     secure: M4SUPhx20BmBiX3defVjog5/OmX9NTuekcuRDIsgC1ml0FD2RO1WCoqhFYSVeltwQ2fekKZkW/jTcuVA5Sq7pTIC3D6YwTfThOTWns4nWee9q//Imr+VUVDmhwAAYJ8H1+r/AOwzpp9vsLWgd7rW1UJxlkfeTkA2Tse0DFOHqs8=
