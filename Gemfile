@@ -11,6 +11,7 @@ gem 'httparty'
 gem 'rails_admin'
 gem 'devise'
 gem 'overcommit'
+gem 'syck'
 
 group :assets do
   gem 'sass-rails'
@@ -32,6 +33,7 @@ group :development, :test do
   gem 'ZenTest'
   gem 'autotest-rails'
   gem 'simplecov'
+  gem 'test-unit'
 end
 
 group :production do
