@@ -130,7 +130,7 @@ GEM
     pg (0.18.3)
     polyglot (0.3.5)
     posix-spawn (0.3.11)
-    power_assert (0.2.4)
+    power_assert (0.2.5)
     ptools (1.3.3)
     rack (1.4.7)
     rack-cache (1.5.1)
