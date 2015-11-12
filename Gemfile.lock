@@ -45,7 +45,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     commonjs (0.2.7)
     cvss (0.99.0)
     dawnscanner (1.4.2)
