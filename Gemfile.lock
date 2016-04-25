@@ -164,7 +164,7 @@ GEM
       railties (>= 3.0, < 4.1)
     minitest-test (1.1.0)
       minitest (~> 4.0)
-    multi_json (1.11.2)
+    multi_json (1.11.3)
     multi_xml (0.5.5)
     nested_form (0.3.2)
     nokogiri (1.6.7.2)
