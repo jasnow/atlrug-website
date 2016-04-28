@@ -150,7 +150,7 @@ GEM
     less-rails (2.6.0)
       actionpack (>= 3.1)
       less (~> 2.6.0)
-    libv8 (3.16.14.13)
+    libv8 (3.16.14.15)
     logger-colors (1.0.0)
     mail (2.5.4)
       mime-types (~> 1.16)
