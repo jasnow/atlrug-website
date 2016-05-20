@@ -119,7 +119,7 @@ GEM
       data_objects (= 0.10.17)
     docile (1.1.5)
     erubis (2.7.0)
-    execjs (2.6.0)
+    execjs (2.7.0)
     fastercsv (1.5.5)
     ffi (1.9.10)
     font-awesome-rails (3.2.1.3)
