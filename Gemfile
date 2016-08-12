@@ -1,10 +1,9 @@
 # -*- ruby -*-
-
 source 'https://rubygems.org'
 
-gem 'rake'
-gem 'rails', '3.2.22.2'
+gem 'rails', '3.2.22.3'
 gem 'rack'
+gem 'rake'
 
 gem 'jquery-rails'
 gem 'httparty'
