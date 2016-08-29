@@ -250,7 +250,8 @@ GEM
     syck (1.1.0)
     sys-uname (1.0.2)
       ffi (>= 1.0.0)
-    terminal-table (1.6.0)
+    terminal-table (1.7.0)
+      unicode-display_width (~> 1.1)
     test-unit (3.2.1)
       power_assert
     therubyracer (0.12.2)
@@ -270,6 +271,7 @@ GEM
     tzinfo (0.3.51)
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
+    unicode-display_width (1.1.0)
     uuidtools (2.1.5)
     warden (1.2.6)
       rack (>= 1.0)
