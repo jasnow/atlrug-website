@@ -267,7 +267,7 @@ GEM
       less-rails (>= 2.5.0)
       railties (>= 3.1)
     tzinfo (0.3.51)
-    uglifier (3.0.2)
+    uglifier (3.0.3)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.1.1)
     uuidtools (2.1.5)
