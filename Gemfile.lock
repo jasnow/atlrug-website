@@ -266,7 +266,7 @@ GEM
       execjs (>= 2.2.2, >= 2.2)
       less-rails (>= 2.5.0)
       railties (>= 3.1)
-    tzinfo (0.3.51)
+    tzinfo (0.3.52)
     uglifier (3.0.3)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.1.1)
