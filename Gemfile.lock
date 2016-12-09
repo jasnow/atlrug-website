@@ -271,7 +271,7 @@ GEM
     tzinfo (0.3.52)
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (1.1.1)
+    unicode-display_width (1.1.2)
     uuidtools (2.1.5)
     warden (1.2.6)
       rack (>= 1.0)
