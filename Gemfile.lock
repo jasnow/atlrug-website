@@ -48,7 +48,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.11.1)
+    coffee-script-source (1.12.2)
     commonjs (0.2.7)
     cvss (0.99.0)
     data_mapper (1.2.0)
