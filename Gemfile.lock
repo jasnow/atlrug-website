@@ -211,7 +211,7 @@ GEM
       remotipart (~> 1.0)
       safe_yaml (~> 0.6)
       sass-rails (~> 3.1)
-    rails_admin-i18n (1.11.0)
+    rails_admin-i18n (1.11.1)
     railties (3.2.22.5)
       actionpack (= 3.2.22.5)
       activesupport (= 3.2.22.5)
